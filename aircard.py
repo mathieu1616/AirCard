@@ -41,8 +41,7 @@ from apply_card_skin import (
 from card_assets import CACHE_FILES
 
 TARGET_ASSETS = [
-    "cardBackgroundCombined@3x.png",
-    "cardBackgroundCombined@2x.png",
+    "american_express_1536x969-aircard-1536x969.png",
 ]
 
 CARDS_STORE_PATH = Path.home() / ".aircard_cards.json"
@@ -445,4 +444,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()  
